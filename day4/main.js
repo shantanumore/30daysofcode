@@ -54,6 +54,18 @@ ages = [18,34,21,45,22,17,16,55,32,12,16,13,28];
 // })
 // console.log(studentClass);
 
+// const studentClass = students.filter(student => student.class === 'ME');
+// console.log(studentClass);
 
 
 
+
+//MAP
+
+// const studentAge = students.map(function(student){
+//     return student.age;
+// }) 
+
+// const studentAge = students.map( student => student.age);
+
+console.log(studentAge);
