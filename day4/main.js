@@ -43,5 +43,17 @@ ages = [18,34,21,45,22,17,16,55,32,12,16,13,28];
 // })
 
 
-const canDrink = ages.filter(age => age>=18);
-console.log(canDrink);
+// const canDrink = ages.filter(age => age>=18);
+// console.log(canDrink);
+
+// const studentClass = students.filter(function(student){
+//     if (student.class === 'ME') {
+//         return true;
+//     }
+
+// })
+// console.log(studentClass);
+
+
+
+
