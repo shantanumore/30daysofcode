@@ -1,11 +1,11 @@
 
 let students = [
-    {name : "shantanu" , age : "18" , class : "CS" , year :"2018"},
-    {name : "vivek" , age : "19" , class : "EE" , year :"2018"},
-    {name : "radhika" , age : "19" , class : "ME" , year :"2018"},
-    {name : "yash" , age : "20" , class : "ME" , year : "2018"},
-    {name : "mahim" , age : "21" , class : "CS" , year : "2018"},
-    {name : "ritik" , age : "20" , class : "EX" , year : "2018"},
+    {name : "shantanu" , age : "18" , class : "CS" , year :"2010"},
+    {name : "vivek" , age : "19" , class : "EE" , year :"2009"},
+    {name : "radhika" , age : "19" , class : "ME" , year :"2011"},
+    {name : "yash" , age : "20" , class : "ME" , year : "2008"},
+    {name : "mahim" , age : "21" , class : "CS" , year : "2001"},
+    {name : "ritik" , age : "20" , class : "EX" , year : "2019"},
 ]
 
 
@@ -68,4 +68,22 @@ ages = [18,34,21,45,22,17,16,55,32,12,16,13,28];
 
 // const studentAge = students.map( student => student.age);
 
-console.log(studentAge);
+// console.log(studentAge);
+
+// const Sortedyear = students.sort(function(c1,c2){
+//     if(c1.year>c2.year){
+//         return 1;
+//     }
+//     else{
+//         return -1;
+//     }
+// });
+
+
+// const Sortedyear = students.sort((a,b) =>(a.year>b.year ? 1 : -1));
+// console.log(Sortedyear);
+
+
+const ageSum = ages.reduce((total, age) => total+age, 0 );
+
+console.log(ageSum);
