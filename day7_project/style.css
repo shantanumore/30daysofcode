@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(24,205,203);
+    background: linear-gradient(0deg, rgba(24,205,203,1) 0%, rgba(145,45,253,1) 100%);
+    /* background: linear-gradient(rgb(47,50,60),rgb(30,65,76)); */
+    color: whitesmoke;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.location,
+.temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family : Arial, Helvetica, sans-serif;
+}
+.temperature-description{
+    font-size: 30px;
+}
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section{
+    align-items: center;
+    display: flex;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.degree-section h2{
+    font-size: 60px;
+}
+
+.footer{
+    margin-top: 30px;
+    color: midnightblue;
+    font-family : Arial, Helvetica, sans-serif;
+}
