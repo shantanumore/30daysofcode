@@ -1,0 +1,26 @@
+{
+  "name": "30daysofcode",
+  "version": "1.0.0",
+  "description": "node crash course",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shantanumore/30daysofcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shantanumore/30daysofcode/issues"
+  },
+  "homepage": "https://github.com/shantanumore/30daysofcode#readme",
+  "dependencies": {
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
