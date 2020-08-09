@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO LIST</title>
-
+    <title>TODO LIST  </title>
+     
+    <link href="day13_project\public\assets\icon2.png" rel="icon">
+  
     <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/assets/styles.css" type="text/css">
+
+    
 </head>
 <body>
+    <h2>TODO WEBAPP</h2>
+    <h3>Organize It All...</h3>
     
     <div id="todo-table">
         <form>
@@ -17,12 +23,14 @@
         </form>
 
         <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
+           <% for(let i=0; i<todos.length; i++){ %>
+                <li><%= todos[i].item %></li>
+           <%} %>
         </ul>
     </div>
-
-
+    <div class=footer>
+        <h4>With &#10084 By Shantanu More</h4>
+    </div>
+    <script type="text/javascript" src="assets/todo-list.js"></script>
 </body>
 </html>
